@@ -34,6 +34,11 @@ CREATE TABLE REGION_MASTER_DJ2(
 -- 데이터 삽입
 INSERT INTO REGION_MASTER_DJ2
     VALUES('A02', '한국');
+
+-- 자바와 바로 연동하기 위해서는
+-- COMMIT이라는 명령어를 사용하던가 Commit 아이콘을 클릭하여야 한다 /
+-- 혹은 View - Toad Options의 Oracle - Transaction - Commit after every statement 체크
+COMMIT;
     
 -- 데이터 편집(가급적 지양)
 EDIT REGION_MASTER_DJ2;
